@@ -1,0 +1,15 @@
+[package]
+name = "hyb"
+version = "0.1.0"
+edition = "2021"
+authors = ["IceRabbit"]
+
+[dependencies]
+anyhow = "1.0.69"
+clap = { version = "4.1.8", features = ["derive"] }
+serde_json = "1.0.94"
+serde = { version = "1.0.156", features = ["derive"] }
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
+tracing-appender = "0.2.2"
+chrono = "0.4.24"
